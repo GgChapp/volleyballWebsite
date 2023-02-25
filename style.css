@@ -1,0 +1,125 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    position: relative;
+    width: 100%;
+    min-height: 100vh;
+    justify-content: space-between; 
+    background: #33564d;
+    transition: 0.5s;
+}
+header{
+    padding-top: 0.5cm;
+    background-color: #24473e;
+    display: flex;
+    justify-content: space-between;
+    padding-bottom: 0.5cm;
+}
+header .logo{
+    font-size: 28px;
+    color: white;
+    text-decoration: none;
+    margin-left: 30px;
+}
+header .logo:hover{
+    color: black;
+    transition: 0.5s;
+}
+header ul {
+    display: inline-flex;
+    list-style-type: none;
+    justify-content: end;
+    margin-right: 30px;
+
+
+}
+header ul li a{
+    margin-left: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 28px;
+}
+header ul li a:hover{
+    color: black;
+    transition: 0.5s;
+}
+h2{
+    margin-top: 4cm;
+    margin-bottom: 1.5cm;
+    text-align: center;
+    font-size: 28px;
+    color: white;
+}
+.content{
+    flex-wrap: wrap;
+    display: flex;
+    margin-bottom: 3cm;
+}
+.content .player{
+    margin: auto;
+}
+.player{
+    width: 320px;
+
+    margin: 20px;
+}
+.player img{
+    cursor: pointer;
+    max-width: 100%;
+    max-height: 80%;
+    border-radius: 10px;
+}
+.player p{
+    color: white;
+    font-size: 20px;
+}
+
+footer {
+    background-color: #24473e;
+    padding: 1cm 3cm;
+    display: flex;
+    justify-content: space-between;
+}
+.main{
+    display: flex;
+}
+
+.foot ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.foot2{
+    margin-left: 7%;
+}
+.foot2 ul{
+    list-style-type: none;
+    color: white;
+    font-size: 20px;
+}
+.fb{
+    margin-right: 20px;
+}
+.social h3{
+    color: white;
+}
+.checked {
+  color: orange;
+}
+.info h4{
+    color: orange;
+}
+.sponsors{
+    display: flex;
+    justify-content: space-around;
+}
+.sponsors div img{
+    margin-right: 2cm;
+}
+.sponsors h3{
+    color: grey;
+    font-size: 40px;
+}
